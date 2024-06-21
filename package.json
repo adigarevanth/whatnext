@@ -1,0 +1,37 @@
+{
+  "name": "whatnext",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write --ignore-unknown .",
+    "prettier:check": "prettier --check --ignore-unknown .",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.3",
+    "@tailwindcss/forms": "^0.5.7",
+    "@vercel/postgres": "^0.8.0",
+    "@vercel/style-guide": "^6.0.0",
+    "autoprefixer": "^10.4.19",
+    "bcrypt": "^5.1.1",
+    "clsx": "^2.1.1",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8.4.38",
+    "prettier-plugin-tailwindcss": "^0.6.4",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
